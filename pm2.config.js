@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'yarn',
+        name: 'auto-deploy',
         script: 'yarn',
         args: 'start:prod',
         interpreter: '/bin/bash',
