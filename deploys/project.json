@@ -1,5 +1,5 @@
 {
-    "path": "/var/www/dev-rootair",
+    "path": "/var/www/dev-frontend-rootair",
     "commands": [
         "git pull",
         "yarn",
