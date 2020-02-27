@@ -24,7 +24,7 @@ const commandRunner = _.pipe(
 );
 
 const commandRunnerRequest = (req, res) => _.pipe(
-    () => commandRunner(_.defaultTo('./deploys/project.json', `./deploys/${req.query.deploy}`)),
+    () => commandRunner(_.defaultTo('./deploys/project.json', req.query.deploy ? `./deploys/${req.query.deploy}` : null)),
     () => res.send({ 'message': 'Successfully ran the commands' })
 )();
 
