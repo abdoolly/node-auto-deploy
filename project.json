@@ -1,0 +1,9 @@
+{
+    "path": "/var/www/dev-rootair",
+    "commands": [
+        "git pull",
+        "yarn",
+        "yarn build",
+        "pm2 restart dev"
+    ]
+}

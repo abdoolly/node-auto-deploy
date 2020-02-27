@@ -1,0 +1,7 @@
+{
+    "path": "/Users/abdallahgamal/projects/nodejs/testProjects/autoDeploy",
+    "commands": [
+        "mkdir helloWorld",
+        "mkdir anotherDir"
+    ]
+}
