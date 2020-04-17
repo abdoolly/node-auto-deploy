@@ -1,8 +1,7 @@
 {
     "path": "/var/www/teacher-backend",
     "commands": [
-        "pwd",
-        "git -C /var/www/teacher-backend pull",
+        "git pull",
         "yarn prisma:deploy",
         "yarn build",
         "sudo pm2 restart pm2.config.js"
