@@ -1,6 +1,7 @@
 {
     "path": "./",
     "commands": [
+        "git pull",
         "mkdir testDIRECTORY",
         "echo 'hello world babies!!'"
     ]
