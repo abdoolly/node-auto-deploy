@@ -3,6 +3,6 @@
     "commands": [
         "git pull",
         "yarn",
-        "pm2 restart pm2.config.js"
+        "sudo pm2 restart pm2.config.js"
     ]
 }
