@@ -1,6 +1,7 @@
 {
     "path": "./",
     "commands": [
-        "mkdir testDIRECTORY"
+        "mkdir testDIRECTORY",
+        "echo 'hello world babies!!'"
     ]
 }
