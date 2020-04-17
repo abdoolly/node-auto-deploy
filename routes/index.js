@@ -8,19 +8,11 @@ router.get('/test', (req, res) => res.send('change 1.0'));
 router.get('/deploy', commandRunnerRequest);
 
 router.post('/deploy', (req, res) => {
-
-  // koko1
-  console.log('req.body.ref', req.body.ref);
-  console.log('req.headers', req.headers);
-  console.log('booody', req.body);
-
   if (!isSecureSignature(req.body, req.headers['x-hub-signature'])) {
     return res.status(400).send();
   }
 
-  return res.status(200).send();
-
-  // return commandRunnerRequest(req, res);
+  return commandRunnerRequest(req, res);
 });
 
 
