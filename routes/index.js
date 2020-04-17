@@ -3,6 +3,7 @@ var router = express.Router();
 const { commandRunnerRequest } = require('../modules/commandRunner');
 
 router.get('/deploy', commandRunnerRequest);
+router.post('/deploy', commandRunnerRequest);
 
 /* GET home page. */
 router.get('/', function (req, res, next) {

@@ -10,3 +10,7 @@ module.exports = {
         }
     }]
 };
+
+
+// http://34.90.97.178:3000/deploy?deploy=deploy-self.json
+// http://34.90.97.178:3000/deploy?deploy=rt-deploy.json
