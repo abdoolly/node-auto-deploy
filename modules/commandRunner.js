@@ -10,7 +10,7 @@ const spawnCommand = _.curry((path, command) => {
 
     return IO(_.pipe(
         () => childProcess.spawnSync(mainCommand, args, { cwd: path }),
-        (spawn) => _.info(spawn.stdout.toString())
+        (spawn) => _.info(spawn.stdout ? spawn.stdout.toString() : '')
     ));
 });
 
