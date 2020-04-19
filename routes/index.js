@@ -15,9 +15,8 @@ router.post('/deploy', (req, res) => {
   return commandRunnerRequest(req, res);
 });
 
-
 const isSecureSignature = (payloadBody, signature) => {
-  const secret = 'super-remote-teacher-app-hook';
+  const secret = process.env.GITHUB_SECRET;
   let genSign = createHmac('sha1', secret)
     .update(JSON.stringify(payloadBody))
     .digest('hex');
