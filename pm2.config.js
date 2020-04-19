@@ -10,10 +10,3 @@ module.exports = {
         }
     }]
 };
-
-
-// http://34.90.97.178:3000/deploy?deploy=deploy-self.json
-// github webhook secret : super-remote-teacher-app-hook
-
-
-// http://34.90.97.178:3000/deploy?deploy=rt-deploy.json
