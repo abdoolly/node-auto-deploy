@@ -1,5 +1,5 @@
 {
-    "path": "/var/www/backend-plano",
+    "path": "/var/www/plano-backend",
     "commands": [
         "git pull",
         "yarn",
