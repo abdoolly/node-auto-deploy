@@ -5,6 +5,6 @@
         "yarn",
         "yarn build",
         "yarn migrate",
-        "sudo pm2 restart pm2.config.js"
+        "pm2 restart pm2.config.js"
     ]
 }
