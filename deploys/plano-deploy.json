@@ -1,6 +1,6 @@
 {
     "path": "/var/www/plano-backend",
     "commands": [
-        "git pull"
+        "git pull > git-pull.output"
     ]
 }
