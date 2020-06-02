@@ -1,10 +1,6 @@
 {
     "path": "/var/www/plano-backend",
     "commands": [
-        "git pull",
-        "yarn",
-        "yarn build",
-        "yarn migrate",
-        "pm2 restart pm2.config.js"
+        "git pull"
     ]
 }
