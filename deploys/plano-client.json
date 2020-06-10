@@ -1,0 +1,8 @@
+{
+    "path": "/var/www/plano-client",
+    "commands": [
+        "git pull",
+        "yarn",
+        "yarn build"
+    ]
+}
